@@ -1,0 +1,102 @@
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nuxeo Angular Sample</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="stylesheet" href="styles/main.css">
+    
+    <!-- build:css styles/components.css -->
+    <link rel="stylesheet" href="components/jquery-file-upload/css/jquery.fileupload-ui.css">
+    <noscript><link rel="stylesheet" href="components/jquery-file-upload/css/jquery.fileupload-ui-noscript.css"></noscript>
+    <!-- endbuild -->
+  </head>
+  <body ng-app="nuxeoAngularSampleApp">
+    <!--[if lt IE 7]>
+      <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
+    <![endif]-->
+
+    <!--[if lt IE 9]>
+      <script src="components/es5-shim/es5-shim.js"></script>
+      <script src="components/json3/lib/json3.min.js"></script>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+
+
+
+      
+
+  <div class="navbar navbar-inverse navbar-fixed-top nx-nav">
+    <div class="container">
+    
+      <!-- .navbar-toggle is used as the toggle for collapsed navbar content -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+      <!-- Be sure to leave the brand out there if you want it shown -->
+      <a class="navbar-brand" href="#">Nuxeo Angular Sample</a>
+
+      <!-- Place everything within .navbar-collapse to hide it until above 768px -->
+      <div class="nav-collapse collapse navbar-responsive-collapse">
+      </div><!-- /.nav-collapse -->
+    </div><!-- /.container -->
+  </div><!-- /.navbar -->
+
+
+
+      
+  <div class="container">
+    <div class="row-fluid">
+      <div class="col-lg-12" ng-view></div>
+    </div>
+  </div>
+
+  <footer class="container">
+  &copy; Nuxeo 2013
+  </footer>
+
+
+    <!-- build:js scripts/components.js -->
+    <script src="components/jquery/jquery.js"></script>   
+    <script src="components/angular-1.1.x/angular.js"></script>
+    <script src="components/angular-1.1.x/angular-resource.js"></script>
+    <script src="components/angular-1.1.x/angular-cookies.js"></script>
+    <script src="components/angular-1.1.x/angular-sanitize.js"></script>
+
+    <script src="components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+
+    <script src="components/bootstrap/js/transition.js"></script>
+    <script src="components/bootstrap/js/alert.js"></script>
+    <script src="components/bootstrap/js/modal.js"></script>
+    <script src="components/bootstrap/js/dropdown.js"></script>
+    <script src="components/bootstrap/js/scrollspy.js"></script>
+    <script src="components/bootstrap/js/tab.js"></script>
+    <script src="components/bootstrap/js/tooltip.js"></script>
+    <script src="components/bootstrap/js/popover.js"></script>
+    <script src="components/bootstrap/js/button.js"></script>
+    <script src="components/bootstrap/js/collapse.js"></script>
+    <script src="components/bootstrap/js/carousel.js"></script>    
+    <script src="components/bootstrap/js/affix.js"></script>
+
+    <!-- endbuild -->
+
+
+    <!-- build:js scripts/scripts.js -->    
+    <script src="scripts/app.js"></script>
+    <script src="scripts/controllers/main.js"></script>
+    <!-- endbuild -->
+
+    
+  </body>
+</html>
